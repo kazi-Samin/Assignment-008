@@ -77,9 +77,9 @@ const ModalCard = () => {
  
   <div className="flex justify-end gap-3 pt-4">
 
-    <Modal.CloseTrigger asChild>
+    {/* <Modal.CloseTrigger asChild>
     
-    </Modal.CloseTrigger>
+    </Modal.CloseTrigger> */}
 
     <button
       type="submit"
