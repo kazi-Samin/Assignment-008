@@ -1,68 +1,44 @@
 [
   {
     "id": 1,
-    "title": "Complete Web Development Bootcamp",
-    "instructor": "John Doe",
-    "duration": "20 hours",
+    "title": "Modern React Development",
+    "instructor": "Sarah Johnson",
     "rating": 4.8,
-    "level": "Beginner",
-    "description": "Learn full-stack web development from scratch.",
-    "image": "https://i.ibb.co.com/8gF6FRyZ/images.jpg",
-    "category": "Development"
+    "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=800"
   },
   {
     "id": 2,
-    "title": "React.js Mastery Course",
-    "instructor": "Sarah Smith",
-    "duration": "15 hours",
-    "rating": 4.7,
-    "level": "Intermediate",
-    "description": "Master React.js with hooks, context API, and real projects.",
-    "image": "https://i.ibb.co.com/27Vc8PVD/download.jpg",
-    "category": "Development"
+    "title": "Full Stack Web Development",
+    "instructor": "John Smith",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800"
   },
   {
     "id": 3,
-    "title": "UI/UX Design Fundamentals",
-    "instructor": "Emily Johnson",
-    "duration": "10 hours",
-    "rating": 4.6,
-    "level": "Beginner",
-    "description": "Learn design principles and create user-friendly interfaces.",
-    "image": "https://i.ibb.co.com/xqWF5P7T/images.jpg",
-    "category": "Design"
+    "title": "UI/UX Design Masterclass",
+    "instructor": "Emily Carter",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1559028012-481c04fa702d"
   },
   {
     "id": 4,
-    "title": "Python for Data Science",
-    "instructor": "Michael Brown",
-    "duration": "25 hours",
-    "rating": 4.9,
-    "level": "Intermediate",
-    "description": "Analyze data and build machine learning models using Python.",
-    "image": "https://i.ibb.co.com/PZPnnG1s/download.jpg",
-    "category": "Data Science"
+    "title": "JavaScript Advanced Concepts",
+    "instructor": "Alex Turner",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479"
   },
   {
     "id": 5,
-    "title": "Digital Marketing Masterclass",
-    "instructor": "David Wilson",
-    "duration": "12 hours",
-    "rating": 4.5,
-    "level": "Beginner",
-    "description": "Learn SEO, social media marketing, and online branding.",
-    "image": "https://i.ibb.co.com/KxmNm3VH/images.jpg",
-    "category": "Marketing"
+    "title": "Python for Data Science",
+    "instructor": "Michael Brown",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f"
   },
   {
     "id": 6,
-    "title": "Advanced JavaScript Concepts",
-    "instructor": "Alex Turner",
-    "duration": "18 hours",
-    "rating": 4.8,
-    "level": "Advanced",
-    "description": "Deep dive into closures, prototypes, async JS, and performance.",
-    "image": "https://i.ibb.co.com/FbSQM6Yh/images.jpg",
-    "category": "Development"
+    "title": "Digital Marketing Bootcamp",
+    "instructor": "David Wilson",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f"
   }
 ]

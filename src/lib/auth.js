@@ -6,7 +6,7 @@ const client = new MongoClient(process.env.MONGO_URI);;
 const db = client.db("assessment");
 
 export const auth = betterAuth({
-  //...other options
+
   emailAndPassword: {
     enabled: true,
   },
@@ -17,7 +17,7 @@ export const auth = betterAuth({
         }, 
     },
   database: mongodbAdapter(db, {
-    // Optional: if you don't provide a client, database transactions won't be enabled.
+    
     client,
   }),
 });
