@@ -33,7 +33,7 @@ const ModalCard = () => {
   return (
     <Modal>
 
-      {/* ✅ FIXED: Trigger added */}
+   
       <Modal.Trigger asChild>
         <button className="flex items-center gap-2 px-4 py-2 rounded-full border border-indigo-500 text-indigo-600 hover:bg-indigo-50 transition">
           <FaEdit size={16} />
@@ -45,10 +45,10 @@ const ModalCard = () => {
         <Modal.Container placement="center">
           <Modal.Dialog className="w-full max-w-md rounded-3xl bg-white/95 backdrop-blur-md shadow-2xl">
 
-            {/* Close */}
+           
             <Modal.CloseTrigger className="absolute top-3 right-3 text-gray-400 hover:text-gray-600" />
 
-            {/* Header */}
+           
             <Modal.Header className="flex items-center gap-2 p-6 pb-2">
               <FaUser className="text-indigo-500" />
               <Modal.Heading className="text-lg font-semibold">
@@ -56,13 +56,13 @@ const ModalCard = () => {
               </Modal.Heading>
             </Modal.Header>
 
-            {/* Body */}
+           
             <Modal.Body className="px-6 pb-6">
               <Surface className="bg-transparent shadow-none">
 
                 <form onSubmit={onSubmithandel} className="flex flex-col gap-4">
 
-                  {/* Name */}
+                 
                   <TextField name="name" type="text">
                     <Label>Name</Label>
                     <Input
@@ -71,7 +71,6 @@ const ModalCard = () => {
                     />
                   </TextField>
 
-                  {/* Photo */}
                   <TextField name="photo" type="text">
                     <Label>Photo URL</Label>
                     <Input
@@ -80,20 +79,16 @@ const ModalCard = () => {
                     />
                   </TextField>
 
-                  {/* Buttons */}
-                  <div className="flex justify-end gap-3 mt-4">
+                  
+                 <div className="flex justify-end gap-3 mt-6">
 
-                    {/* Cancel */}
+                    
                     <Modal.CloseTrigger asChild>
                       <button
                         type="button"
-                        className="px-5 py-2 rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200 transition"
-                      >
-                        Cancel
-                      </button>
+                        className="px-5 py-2 rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200 transition">Cancel</button>
                     </Modal.CloseTrigger>
 
-                    {/* Update */}
                     <button
                       type="submit"
                       className="px-5 py-2 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-medium shadow hover:scale-105 transition"
