@@ -21,7 +21,11 @@ const ProfilePage = () => {
       <Card className="w-full max-w-md p-6 sm:p-8 rounded-3xl shadow-xl relative bg-white/90 backdrop-blur-md">
 
         
-        <div className="absolute top-4 right-4">
+        <div className="absolute top-4 right-4 
+                max-sm:static 
+                max-sm:flex 
+                max-sm:justify-center 
+                max-sm:mt-3">
           <ModalCard />
         </div>
 
