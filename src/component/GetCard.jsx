@@ -10,19 +10,23 @@ const GetCard = async() => {
      const final =data.sort((a, b) => b.rating - a.rating).slice(0, 3); // first 3
      console.log(final)
     return (
-      <div className="max-w-7xl mx-auto py-10">
-        <div className="md:flex max-w-6xl mx-auto justify-between items-center mb-8">
-          <div></div>
-          <h1 className=" font-bold text-3xl text-center ml-15 ">
-            Trending Courses
-          </h1>
-          <Link href={"/courses"}>
-            <p className="font-bold cursor-pointer text-blue-500 hover:underline">
-              View All
-            </p>
-          </Link>
-        </div>
+      <div className="max-w-7xl mx-auto py-10 px-4">
+  
+  <div className="relative max-w-6xl mx-auto mb-8 flex items-center justify-center">
 
+    {/* Title center */}
+    <h1 className="font-bold text-2xl sm:text-3xl text-center">
+      Trending Courses
+    </h1>
+
+    {/* View All right side */}
+    <Link href="/courses">
+      <p className="absolute right-0 text-sm sm:text-base font-semibold text-indigo-600 hover:underline cursor-pointer">
+        View All
+      </p>
+    </Link>
+
+  </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
           {final.map((course) => (
             <CourseCard key={course.id} course={course} />
