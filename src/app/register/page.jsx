@@ -90,7 +90,7 @@ export default function Page() {
           <TextField isRequired name="password" type="password">
             <Label>Password</Label>
             <Input placeholder="Create password" className="rounded-xl" />
-            <Description>
+           <Description className="text-xs sm:text-sm">
               Minimum 8 characters <br />
               <Link href="/login" className="text-indigo-600 font-medium hover:underline">
                 Already have an account? Login
