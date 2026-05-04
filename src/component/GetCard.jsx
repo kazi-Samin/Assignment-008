@@ -14,16 +14,16 @@ const GetCard = async() => {
   
   <div className="relative max-w-6xl mx-auto mb-8 flex items-center justify-center">
 
-    {/* Title center */}
+    
     <h1 className="font-bold text-2xl sm:text-3xl text-center">
       Trending Courses
     </h1>
 
-    {/* View All right side */}
+    
     <Link href="/courses">
-      <p className="absolute right-0 text-sm sm:text-base font-semibold text-indigo-600 hover:underline cursor-pointer">
+      <button className="absolute right-0 px-4 py-2 text-sm sm:text-base rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-medium shadow hover:scale-105 transition">
         View All
-      </p>
+      </button>
     </Link>
 
   </div>
