@@ -78,12 +78,7 @@ const ModalCard = () => {
   <div className="flex justify-end gap-3 pt-4">
 
     <Modal.CloseTrigger asChild>
-      <button
-        type="button"
-        className="px-5 py-2 rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200 transition"
-      >
-        Cancel
-      </button>
+    
     </Modal.CloseTrigger>
 
     <button
