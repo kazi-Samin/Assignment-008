@@ -62,19 +62,19 @@ const ModalCard = () => {
 
                 <form onSubmit={onSubmithandel} className="flex flex-col gap-4">
 
-  {/* Name */}
+  
   <TextField name="name" type="text">
     <Label>Name</Label>
     <Input placeholder="Enter your name" className="rounded-xl" />
   </TextField>
 
-  {/* Photo */}
+ 
   <TextField name="photo" type="text">
     <Label>Photo URL</Label>
     <Input placeholder="Paste image link" className="rounded-xl" />
   </TextField>
 
-  {/* ✅ Buttons properly separated */}
+ 
   <div className="flex justify-end gap-3 pt-4">
 
     <Modal.CloseTrigger asChild>
