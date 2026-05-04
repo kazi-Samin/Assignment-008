@@ -68,26 +68,24 @@ const ModalCard = () => {
   <Input
     placeholder="Enter your name"
     className="rounded-xl"
-    isClearable={false}   
+    isClearable={false}
+    endContent={null}  
   />
 </TextField>
-
  
-  <TextField name="photo" type="text">
+ <TextField name="photo" type="text">
   <Label>Update Photo</Label>
   <Input
     placeholder="Paste image link"
     className="rounded-xl"
-    isClearable={false}   
+    isClearable={false}
+    endContent={null}  
   />
 </TextField>
  
   <div className="flex justify-end gap-3 pt-4">
 
-    <Modal.CloseTrigger asChild>
     
-    </Modal.CloseTrigger>
-
     <button
       type="submit"
       className="px-5 py-2 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow hover:scale-105 transition"
