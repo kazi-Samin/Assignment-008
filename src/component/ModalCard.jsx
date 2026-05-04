@@ -62,43 +62,39 @@ const ModalCard = () => {
 
                 <form onSubmit={onSubmithandel} className="flex flex-col gap-4">
 
-                 
-                  <TextField name="name" type="text">
-                    <Label>Name</Label>
-                    <Input
-                      placeholder="Enter your name"
-                      className="rounded-xl border-gray-300 focus:ring-2 focus:ring-indigo-400"
-                    />
-                  </TextField>
+  {/* Name */}
+  <TextField name="name" type="text">
+    <Label>Name</Label>
+    <Input placeholder="Enter your name" className="rounded-xl" />
+  </TextField>
 
-                  <TextField name="photo" type="text">
-                    <Label>Photo URL</Label>
-                    <Input
-                      placeholder="Paste image link"
-                      className="rounded-xl border-gray-300 focus:ring-2 focus:ring-indigo-400"
-                    />
-                  </TextField>
+  {/* Photo */}
+  <TextField name="photo" type="text">
+    <Label>Photo URL</Label>
+    <Input placeholder="Paste image link" className="rounded-xl" />
+  </TextField>
 
-                  
-                 <div className="flex justify-end gap-3 mt-6">
+  {/* ✅ Buttons properly separated */}
+  <div className="flex justify-end gap-3 pt-4">
 
-                    
-                    <Modal.CloseTrigger asChild>
-                      <button
-                        type="button"
-                        className="px-5 py-2 rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200 transition">Cancel</button>
-                    </Modal.CloseTrigger>
+    <Modal.CloseTrigger asChild>
+      <button
+        type="button"
+        className="px-5 py-2 rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200 transition"
+      >
+        Cancel
+      </button>
+    </Modal.CloseTrigger>
 
-                    <button
-                      type="submit"
-                      className="px-5 py-2 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-medium shadow hover:scale-105 transition"
-                    >
-                      Update Now
-                    </button>
+    <button
+      type="submit"
+      className="px-5 py-2 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow hover:scale-105 transition"
+    >
+      Update Now
+    </button>
 
-                  </div>
-
-                </form>
+  </div>
+</form>
 
               </Surface>
             </Modal.Body>
