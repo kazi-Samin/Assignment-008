@@ -44,25 +44,24 @@ export default function Page() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-600 via-indigo-500 to-blue-500 px-4">
+   <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-600 via-indigo-500 to-blue-500 px-3 sm:px-4">
 
-      <div className="w-full max-w-md bg-white/90 backdrop-blur-lg rounded-3xl shadow-2xl p-8">
-
+      <div className="w-full max-w-md sm:max-w-lg bg-white/90 backdrop-blur-lg rounded-2xl sm:rounded-3xl shadow-2xl p-5 sm:p-8">
         {/* Header */}
-        <h1 className="text-3xl font-bold text-center text-gray-800">
+        <h1 className="text-2xl sm:text-3xl font-bold text-center text-gray-800">
           Create Account 🚀
         </h1>
-        <p className="text-center text-gray-500 mt-2 mb-6">
+        <p className="text-center text-sm sm:text-base text-gray-500 mt-2 mb-5 sm:mb-6">
           Join us and start your journey
         </p>
 
-        <Form onSubmit={onSubmit} className="flex flex-col gap-5">
+        <Form onSubmit={onSubmit} className="flex flex-col gap-5 sm:gap-5">
 
           {/* First + Last Name */}
-          <div className="flex gap-3">
+         <div className="flex flex-col sm:flex-row gap-3">
             <TextField isRequired name="firstName" type="text" className="flex-1">
               <Label>First Name</Label>
-              <Input placeholder="First name" className="rounded-xl" />
+              <Input placeholder="First name" className="rounded-xl text-sm sm:text-base" />
               <FieldError />
             </TextField>
 
