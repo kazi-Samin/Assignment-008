@@ -4,7 +4,7 @@
 
 > **SkillSphere** is a modern, full-stack e-learning platform that empowers students to explore premium courses, follow structured learning paths, and manage their profiles through a sleek and highly responsive user interface.
 
-🌐 **Live Demo:** https://your-live-link-here.vercel.app
+🌐 **Live Demo:** https://assignment-008-wine.vercel.app/
 
 ---
 
@@ -47,28 +47,3 @@ From browsing trending courses to managing user profiles and authentication, Ski
 - Custom 404 page
 - Route fallback handling
 
----
-
-## 🖼️ Screenshots
-
-### 🏠 Home Page
-![Home Page](./public/screenshots/home-page.png)
-
-### 📈 Trending Courses
-![Trending Courses](./public/screenshots/trending-courses.png)
-
-### 👨‍🏫 Top Instructors
-![Top Instructors](./public/screenshots/top-instructors.png)
-
-### 💡 Smart Learning Tips
-![Smart Learning Tips](./public/screenshots/learning-tips.png)
-
----
-
-## 🌐 Live Preview
-
-Experience SkillSphere in action:
-
-🔗 **Live Website:** https://assignment-008-wine.vercel.app/
-
-> Explore the platform, browse courses, view instructor profiles, and test the authentication system in real time.
