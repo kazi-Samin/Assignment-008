@@ -1,6 +1,5 @@
 # 🚀 SkillSphere — Modern E-Learning Platform
 
-![SkillSphere Banner](./public/screenshots/home.png)
 
 > **SkillSphere** is a modern, full-stack e-learning platform that empowers students to explore premium courses, follow structured learning paths, and manage their profiles through a sleek and highly responsive user interface.
 
