@@ -20,7 +20,7 @@ const HeroSection = () => {
           </p>
 
           <div className="mt-6 flex gap-4">
-             <Link href="#courses">
+             <Link href="courses">
             <button className="px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-xl shadow-md hover:scale-105 transition duration-300">
   Browse Courses
 </button>

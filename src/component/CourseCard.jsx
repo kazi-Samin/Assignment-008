@@ -17,7 +17,9 @@ const CourseCard = ({ course }) => {
     className="object-cover hover:scale-105 transition duration-300"
   />
 </div>
-
+<section id="courses" className="py-16">
+  
+</section>
       {/* Content */}
       <div className="p-4 flex flex-col flex-1 justify-between">
         
