@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -19,13 +20,16 @@ const HeroSection = () => {
           </p>
 
           <div className="mt-6 flex gap-4">
+             <Link href="#courses">
             <button className="px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-xl shadow-md hover:scale-105 transition duration-300">
   Browse Courses
 </button>
-
+</Link>
+            <Link href="/register">
             <button className="px-6 py-3 border border-indigo-500 text-indigo-600 rounded-xl hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-500 hover:text-white transition duration-300">
   Get Started
 </button>
+</Link>
           </div>
         </div>
 
